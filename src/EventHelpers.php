@@ -1,7 +1,7 @@
 <?php
 declare(strict_types = 1);
 
-namespace Jalismrs\HelpersEventBundle;
+namespace Jalismrs\Symfony\Common\Helpers;
 
 use Symfony\Component\HttpKernel\Event\ControllerEvent;
 use function is_array;
@@ -9,7 +9,7 @@ use function is_array;
 /**
  * Class EventHelpers
  *
- * @package Jalismrs\HelpersEventBundle
+ * @package Jalismrs\Symfony\Common\Helpers
  */
 final class EventHelpers
 {

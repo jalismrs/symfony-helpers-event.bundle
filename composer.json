@@ -8,21 +8,20 @@
   ],
   "autoload" : {
     "psr-4" : {
-      "Jalismrs\\HelpersEventBundle\\" : "src"
+      "Jalismrs\\Symfony\\Common\\Helpers\\" : "src/"
     }
   },
   "autoload-dev" : {
     "psr-4" : {
-      "Tests\\" : "tests"
+      "Tests\\" : "tests/"
     }
   },
   "config" : {
     "sort-packages" : true
   },
-  "description" : "API Throttler Symfony bundle helps you throttle API calls using a persistent token bucket algorithm",
+  "description" : "Adds Symfony events helper methods",
   "license": "MIT",
-  "minimum-stability": "dev",
-  "name" : "jalismrs/symfony-helpers-event.bundle",
+  "name" : "jalismrs/symfony.common.helpers.event",
   "require-dev" : {
     "composer/package-versions-deprecated" : "*",
     "phpunit/phpunit" : "9.4.2",
@@ -30,15 +29,13 @@
   },
   "require" : {
     "php" : "^7.4",
-    "symfony/http-kernel" : "^5.0",
-    "symfony/dependency-injection": "^5.0"
+    "symfony/http-kernel" : "^5.0"
   },
   "support" : {
     "email" : "dev@jalis.fr",
-    "issues" : "https://github.com/jalismrs/symfony-helpers-event.bundle/issues",
-    "wiki" : "https://github.com/jalismrs/symfony-helpers-event.bundle/wiki",
-    "source" : "https://github.com/jalismrs/symfony-helpers-event.bundle",
-    "docs" : "https://github.com/jalismrs/symfony-helpers-event.bundle"
-  },
-  "type" : "symfony-bundle"
+    "issues" : "https://github.com/jalismrs/symfony.common.helpers.event/issues",
+    "wiki" : "https://github.com/jalismrs/symfony.common.helpers.event/wiki",
+    "source" : "https://github.com/jalismrs/symfony.common.helpers.event",
+    "docs" : "https://github.com/jalismrs/symfony.common.helpers.event"
+  }
 }
