@@ -3,7 +3,7 @@ declare(strict_types = 1);
 
 namespace Tests;
 
-use Jalismrs\HelpersEventBundle\EventHelpers;
+use Jalismrs\Symfony\Common\Helpers\EventHelpers;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpKernel\Event\ControllerEvent;
@@ -14,7 +14,7 @@ use Symfony\Component\HttpKernel\HttpKernelInterface;
  *
  * @package Tests
  *
- * @covers  \Jalismrs\HelpersEventBundle\EventHelpers
+ * @covers  \Jalismrs\Symfony\Common\Helpers\EventHelpers
  */
 final class EventHelpersTest extends
     TestCase
