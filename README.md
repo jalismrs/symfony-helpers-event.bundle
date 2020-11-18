@@ -1,4 +1,4 @@
-# symfony.common.helper.event
+# symfony.common.helpers.event
 
 Adds Symfony events helper methods
 
